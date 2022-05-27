@@ -1,10 +1,8 @@
-/* delete me */
 import 'dotenv/config'
 
-console.log('hola mundo')
+import reverseString from './utils/reverseString'
 
-function sum(a: number, b: number): number {
-  return a + b
-}
-console.log(sum(1, 1))
-console.log(process.env.test)
+const word = 'pizza with pineapple'
+const invertedWord = reverseString(word)
+console.log('word -> ', word)
+console.log('reversedWord -> ', invertedWord)
