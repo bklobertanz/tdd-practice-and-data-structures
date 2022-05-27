@@ -1,11 +1,92 @@
-# nodejs-app-template
+# TDD practice: implementing and applying data structures
 
-Basic nodejs app code scaffolding. It comes with: 
+## Table of Contents
 
-* Typescript support.
-* Eslint and prettier (working together).
-* Husky (pre-commit hook).
+- [Project description](#project-description)
+  - [Technologies](#technologies)
+  - [TO-DO](#to-do)
+- [How to use the project](#how-to-use-the-project)
+  - [Installation](#installation)
+  - [Requirements and considerations](#requirements-and-considerations)
+- [Credits](#credits)
+- [License](#license)
 
-## TO-DO: 
+---
 
-* Add eslint rules.
+## Project description
+
+This project exists as an exercise for learning `TDD(Test Driven Development)` and learning/brush up `data structures` fundamentals using `typescript`.
+
+Here is a list of all data structures implemented so far:
+
+- Stack
+
+Beside implementing each listed data structure, I apply them in some relevant(🤔) use case. You should find each implementation under the `utils` folder.
+
+And if you want to check the unit tests, they are in `tests/unit-tests`.
+
+### Technologies
+
+- Typescript
+- Eslint and prettier (working together)
+- Husky (pre-commit hook)
+- Jest
+
+### TO-DO 📋
+
+- [ ] Add queues.
+- [ ] Add linked lists.
+- [ ] Add circular lists.
+
+[Back to the Top](#table-of-contents)
+
+---
+
+## How to use the project
+
+### Installation
+
+After `git cloning` this repo to your local environment, `cd` into the created project folder and do:
+
+```
+$ yarn
+
+```
+
+### Requirements and considerations
+
+[Back to the Top](#table-of-contents)
+
+---
+
+### Testing
+
+For testing:
+
+```
+$ yarn test
+```
+
+For checking test coverage:
+
+```
+$ yarn test:cov
+```
+
+For entering watch mode:
+
+```
+$ yarn test:watch
+```
+
+---
+
+## Credits
+
+[Back to the Top](#table-of-contents)
+
+---
+
+## License
+
+[Back to the Top](#table-of-contents)
