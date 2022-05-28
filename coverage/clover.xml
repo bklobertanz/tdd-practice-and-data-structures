@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1653667797968" clover="3.2.0">
-  <project timestamp="1653667797968" name="All files">
-    <metrics statements="21" coveredstatements="21" conditionals="0" coveredconditionals="0" methods="8" coveredmethods="8" elements="29" coveredelements="29" complexity="0" loc="21" ncloc="21" packages="2" files="2" classes="2"/>
+<coverage generated="1653694958115" clover="3.2.0">
+  <project timestamp="1653694958116" name="All files">
+    <metrics statements="32" coveredstatements="32" conditionals="0" coveredconditionals="0" methods="12" coveredmethods="12" elements="44" coveredelements="44" complexity="0" loc="32" ncloc="32" packages="2" files="3" classes="3"/>
     <package name="dist.data-structures">
       <metrics statements="11" coveredstatements="11" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="4"/>
       <file name="stack.js" path="/home/baris/Documentos/proyectos/practica-js-ds/dist/data-structures/stack.js">
@@ -20,7 +20,21 @@
       </file>
     </package>
     <package name="src.data-structures">
-      <metrics statements="10" coveredstatements="10" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="4"/>
+      <metrics statements="21" coveredstatements="21" conditionals="0" coveredconditionals="0" methods="8" coveredmethods="8"/>
+      <file name="queue.ts" path="/home/baris/Documentos/proyectos/practica-js-ds/src/data-structures/queue.ts">
+        <metrics statements="11" coveredstatements="11" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="4"/>
+        <line num="6" count="4" type="stmt"/>
+        <line num="7" count="4" type="stmt"/>
+        <line num="8" count="4" type="stmt"/>
+        <line num="11" count="3" type="stmt"/>
+        <line num="12" count="3" type="stmt"/>
+        <line num="15" count="1" type="stmt"/>
+        <line num="16" count="1" type="stmt"/>
+        <line num="17" count="1" type="stmt"/>
+        <line num="18" count="1" type="stmt"/>
+        <line num="21" count="1" type="stmt"/>
+        <line num="24" count="1" type="stmt"/>
+      </file>
       <file name="stack.ts" path="/home/baris/Documentos/proyectos/practica-js-ds/src/data-structures/stack.ts">
         <metrics statements="10" coveredstatements="10" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="4"/>
         <line num="5" count="4" type="stmt"/>
