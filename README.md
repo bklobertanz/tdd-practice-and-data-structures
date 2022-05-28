@@ -20,6 +20,7 @@ This project exists as an exercise for learning `TDD(Test Driven Development)` a
 Here is a list of all data structures implemented so far:
 
 - Stack
+- Queue
 
 Beside implementing each listed data structure, I apply them in some relevant(🤔) use case. You should find each implementation under the `utils` folder.
 
@@ -34,7 +35,7 @@ And if you want to check the unit tests, they are in `tests/unit-tests`.
 
 ### TO-DO 📋
 
-- [ ] Add queues.
+- [x] Add queues.
 - [ ] Add linked lists.
 - [ ] Add circular lists.
 
