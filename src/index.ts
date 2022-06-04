@@ -1,4 +1,5 @@
 import 'dotenv/config'
+import LinkedList from './data-structures/linkedList'
 import Queue from './data-structures/queue'
 import reverseString from './utils/reverseString'
 
@@ -18,3 +19,18 @@ while (printerQueue.head <= printerQueue.tail) {
   console.log('Printed job: ', printerQueue.dequeue())
 }
 console.log(printerQueue.dequeue())
+
+//applying linkedList
+
+const list = new LinkedList()
+list.append('👋')
+list.append('🌎')
+list.append('👱')
+list.append('👱👱')
+list.delete('👱👱')
+console.log(list)
+list.prepend('🧑‍🤝‍🧑')
+console.log(list)
+list.insert('👱')
+console.log(list)
+list.insert('🍩', '🌎'), console.log(list.lookup('🌎'))
