@@ -36,8 +36,10 @@ And if you want to check the unit tests, they are in `tests/unit-tests`.
 ### TO-DO 📋
 
 - [x] Add queues.
-- [ ] Add linked lists.
+- [x] Add linked lists.
 - [ ] Add circular lists.
+- [ ] Add double linked lists.
+- ...
 
 [Back to the Top](#table-of-contents)
 
